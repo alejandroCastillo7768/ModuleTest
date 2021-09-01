@@ -4,7 +4,7 @@
 //
 //  Created by facundo rodriguez on 11/12/2018.
 //
-
+/*
 import Foundation
 import Alamofire
 import Core
@@ -41,3 +41,4 @@ public class ExampleService:Initializable {
     }
     
 }
+*/

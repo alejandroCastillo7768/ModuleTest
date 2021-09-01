@@ -1,5 +1,5 @@
 import XCTest
-import ModuleTest
+//import ModuleTesthttps://gitlab.extranet.fluxit.com.ar/ios-native-ncuenta/pod-template-module.git
 
 class Tests: XCTestCase {
     

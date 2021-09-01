@@ -4,7 +4,7 @@
 //
 //  Created by facundo rodriguez on 21/12/2018.
 //
-
+/*
 import Foundation
 import Core
 
@@ -29,3 +29,4 @@ public class ModuleTest:BaseModule,Initializable{
         return self.navItems
     }
 }
+*/

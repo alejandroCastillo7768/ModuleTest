@@ -4,7 +4,7 @@ s.platform = :ios
 s.ios.deployment_target = "10.0"
 s.name             = "ModuleTest"
 s.version          = "0.1.0"
-s.summary          = "A short description of ModuleTest."
+s.summary          = "A test module created with a template."
 s.requires_arc = true
 s.static_framework = true
 
@@ -16,9 +16,6 @@ s.source           = { :git => "https://github.com/alejandroCastillo7768/ModuleT
 
 # 7
 s.framework = "UIKit"
-s.dependency "Core", "~> 3.0.1-beta"
-s.dependency "NcuentaThemesModule", "~> 2.0.1-beta"
-s.dependency "NcuentaCommonModule", "~> 2.0.1-beta"
 
 # 8
 s.source_files = "ModuleTest/**/*.{swift}"
@@ -28,7 +25,6 @@ s.resources = "ModuleTest/**/*.{png,jpeg,jpg,storyboard,xib}"
 
 # Test configuration
 s.test_spec "Tests" do |test_spec|
-test_spec.dependency 'Mockingjay', '2.0.1'
 test_spec.frameworks = "XCTest"
 test_spec.source_files = "Tests/**/*.{h,m,swift}"
 test_spec.resources = 'Tests/**/*.{json}'
