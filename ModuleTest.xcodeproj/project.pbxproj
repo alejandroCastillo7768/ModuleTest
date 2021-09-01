@@ -29,7 +29,6 @@
 		52FC24B3CEC44F565D31913B /* Pods_ModuleTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68B91042B9D9E843BE68E79 /* Pods-ModuleTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleTest/Pods-ModuleTest.debug.xcconfig"; sourceTree = "<group>"; };
 		D59F286E26E0081F0064816B /* ExampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
-		D59F286F26E008200064816B /* ModuleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleTest.h; sourceTree = "<group>"; };
 		D59F287D26E009E10064816B /* ModuleTest.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ModuleTest.podspec; sourceTree = "<group>"; };
 		DA52D07321B6A45500370736 /* ModuleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA578DB621CD785E00986A8C /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,7 +107,6 @@
 		DA52D07521B6A45500370736 /* ModuleTest */ = {
 			isa = PBXGroup;
 			children = (
-				D59F286F26E008200064816B /* ModuleTest.h */,
 				DA59CEB921FB8BD0007D4CAB /* Resources */,
 				D59F286D26E0081F0064816B /* Model */,
 			);
