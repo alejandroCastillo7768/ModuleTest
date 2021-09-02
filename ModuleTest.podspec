@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = "10.0"
 s.name             = "ModuleTest"
-s.version          = "1.0.2"
+s.version          = "1.1.2"
 s.summary          = "A test module created with a template."
 s.requires_arc = true
 s.static_framework = true

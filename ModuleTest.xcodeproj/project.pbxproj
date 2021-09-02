@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03382B82F2DCE213DD6B2A2B /* Pods_ModuleTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FC24B3CEC44F565D31913B /* Pods_ModuleTest.framework */; };
+		D59C668C26E0FDA800F8028D /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C668B26E0FDA800F8028D /* Icons.swift */; };
 		D59F287626E008200064816B /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59F286E26E0081F0064816B /* ExampleModel.swift */; };
 		D59F287E26E009E10064816B /* ModuleTest.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D59F287D26E009E10064816B /* ModuleTest.podspec */; };
 		DA578DB921CD785E00986A8C /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA578DB821CD785E00986A8C /* Tests.swift */; };
@@ -28,6 +29,7 @@
 		22DC2CAA1C5921CBB2C074B1 /* Pods-ModuleTest.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleTest.testing.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleTest/Pods-ModuleTest.testing.xcconfig"; sourceTree = "<group>"; };
 		52FC24B3CEC44F565D31913B /* Pods_ModuleTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68B91042B9D9E843BE68E79 /* Pods-ModuleTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleTest/Pods-ModuleTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D59C668B26E0FDA800F8028D /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		D59F286E26E0081F0064816B /* ExampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
 		D59F287D26E009E10064816B /* ModuleTest.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ModuleTest.podspec; sourceTree = "<group>"; };
 		DA52D07321B6A45500370736 /* ModuleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				DA59CEBA21FB8BD0007D4CAB /* Assets.xcassets */,
+				D59C668B26E0FDA800F8028D /* Icons.swift */,
 			);
 			name = Resources;
 			path = ModuleTest/Resources;
@@ -368,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59C668C26E0FDA800F8028D /* Icons.swift in Sources */,
 				D59F287626E008200064816B /* ExampleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
